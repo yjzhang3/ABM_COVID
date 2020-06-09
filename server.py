@@ -1,9 +1,9 @@
-from model import PopulationModel
+from model_SIR import PopulationModel
 from mesa.visualization.ModularVisualization import ModularServer
 from SimpleContinuousModule import SimpleCanvas
 import matplotlib.pyplot as plt
 
-model = PopulationModel(10, 6, 12,12)
+model = PopulationModel(10, 6, 0.2, 12,12)
 
 for i in range(5):
     model.step()
@@ -17,6 +17,7 @@ persons_canvas = SimpleCanvas(person_draw, 500, 500)
 model_params = {
     "N": 5,
     "r":6,
+    "p": 0.2,
     "width": 100,
     "height": 100,
 }
