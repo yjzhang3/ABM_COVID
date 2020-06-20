@@ -33,3 +33,9 @@ self.infect_prob = what you want
 Note, however, all agents will still be initialized with the same values. 
 
 To be continued...
+
+UPDATE: you may see this error for first couple of runs:
+deltas = np.abs(self._agent_points - np.array(pos))
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+
+Please keep re-initializing the model several times (press F5 in IDLE multiple times or repeat the command python3 novis_run.py) and it should go away. 
