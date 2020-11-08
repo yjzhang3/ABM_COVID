@@ -2,6 +2,8 @@
 An agent-based model for COVID 19 transmission to test the optimal social distancing requirements
 (note: this is developed by a novice who has no previous experiences with ABM. Please stay tuned for error checking and more updates)
 
+Formal solution to the Tracking Coronavirus sponsored by The New York Academy of Sciences: https://www.nyas.org/challenges/tracking-coronavirus/
+
 Developed using Mesa https://mesa.readthedocs.io/en/master/
 Minimum requirement is Python 3+.
 
